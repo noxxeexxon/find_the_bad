@@ -1,10 +1,13 @@
+## What is this?
+This repository contains a simple exercise for using Kibana to look at log files and try to find something malicious.  Log loading is handled for you, so all you should need to is use docker compose and then access the Kibana interface.  The data is based on logs gathered from a Windows desktop.
+
 ## Getting started
 This should be as simple as doing:
 - docker-compose build
 - docker-compose up
 
 ## What just happened?
-The docker-compose file sets up elasticsearch, kibana and loads up some example sysmon data.  Once the loader is done you should see a message like:
+The docker-compose file sets up Elasticsearch, Kibana and loads up some example sysmon data.  Once the loader is done you should see a message like:
 ```
 loader_1            | Loading logs into ES
 loader_1            | Done
