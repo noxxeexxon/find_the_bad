@@ -5,5 +5,5 @@ geoip2==2.9.0
 idna==2.8
 maxminddb==1.4.1
 requests==2.21.0
-urllib3==1.24.1
+urllib3==1.24.2
 xmltodict==0.11.0
