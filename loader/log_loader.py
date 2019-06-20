@@ -52,7 +52,7 @@ def parse_log(es_writer, file_path='data/the_bad.xml', initialize=True):
         #    'eventlogs'
         #    get_log_id(json.dumps(row).encode('utf-8')),
         #    row
-        )
+        #)
         processed_logs.append(
             get_bulk_prepped_log(
                 get_log_id(json.dumps(row).encode('utf-8')),
